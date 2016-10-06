@@ -1,0 +1,6 @@
+framework module Pods_FreeNovelOnline {
+  umbrella header "Pods-FreeNovelOnline-umbrella.h"
+
+  export *
+  module * { export * }
+}

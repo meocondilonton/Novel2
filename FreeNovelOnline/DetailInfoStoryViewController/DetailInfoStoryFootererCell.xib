@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11201"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="DetailInfoStoryFootererCell" id="iN0-l3-epB" customClass="DetailInfoStoryFootererCell" customModule="FreeNovelOnline" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7WY-ao-Btx" customClass="GADNativeExpressAdView">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7WY-ao-Btx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HQN-ly-Sxa"/>
+                <constraint firstAttribute="trailing" secondItem="7WY-ao-Btx" secondAttribute="trailing" id="Vil-oE-wel"/>
+                <constraint firstItem="7WY-ao-Btx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XtX-wD-CoU"/>
+                <constraint firstAttribute="bottom" secondItem="7WY-ao-Btx" secondAttribute="bottom" id="eY1-uB-eRw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="adView" destination="7WY-ao-Btx" id="kIv-Qh-5nd"/>
+            </connections>
+            <point key="canvasLocation" x="247.5" y="163"/>
+        </view>
+    </objects>
+</document>
